@@ -148,12 +148,17 @@ Soon: GitHub starter repo + sync scripts
 
 ## 🛣 Roadmap (v0.2+)
 
-- Full schemas for all resource types
-- Web-based publishing form with steward review
-- Print + email digest generators
-- ActivityPub federation (e.g. @events@outersunset.api)
-- Widget library (calendar, map, digest)
+We're starting with a simple service for stewards:
 
+- **📥 Paste-a-URL Resource Generator** – Turn links (ICS, RSS, Notion, etc.) into clean JSON resources
+- **📤 One-click publishing** – Approve and publish resources to your feed from a web interface
+- **🛠 Feed hosting and preview** – Serve and preview `/events`, `/plans`, and more without running your own infra
+
+Next phases may include:
+- Full schemas for all resource types
+- Widget library (calendar, map, digest)
+- Print/email digest generator
+- ActivityPub support for public feeds
 
 ---
 
