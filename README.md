@@ -29,6 +29,8 @@ It defines common resource types like `events`, `assets`, `dreams`, and `plans`,
 
 This is not a platform. It’s connective tissue — a way for neighbors, tools, and stewards to stay in sync.
 
+The Neighborhood API is designed both for humans and for AI builders that help humans create tools for their communities. We also acknowledge non-human animals, plants, fungi, mountains, rivers, spirit, and other beings, as the true builders of the layer 0 protocols of all neighborhoods.
+
 ---
 
 ## 💡 Use Cases
