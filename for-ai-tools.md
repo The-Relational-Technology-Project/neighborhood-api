@@ -2,7 +2,7 @@
 
 The Neighborhood API is designed not just for humans — but for **AI builders, assistants, and app generators** that help people create tools for their communities.
 
-If your AI model or platform helps users build calendars, maps, task boards, or shared wishlists, this guide will help you make those creations interoperable with the Neighborhood API.
+If your platform or AI model helps people make calendars, maps, task boards, shared wish lists, etc., this guide will help you leverage the Neighborhood API to craft composable tools that are interoperable with other tools in your locality that also use the Neighborhood API.
 
 ---
 
