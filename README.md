@@ -1,4 +1,4 @@
-# Neighborhood API – v0.1
+# Neighborhood API – v0.2
 
 A minimal, open, stewarded feed format for sharing **local events, assets, dreams, plans, and notices** across neighborhood websites, tools, and communities. 
 
@@ -60,6 +60,10 @@ What’s in motion. Projects with energy and stewards.
 ### 📢 Notices
 What people should know. Civic alerts, announcements, calls for help.
 
+### Groups
+A persistent social container: a club, cohort, team, circle, congregation, committee, crew, etc. 
+Groups can host events, steward plans, maintain assets, publish notices, and hold dreams.
+
 🧠 *Knowledge* can be a subtype of assets — like how-tos, zines, or guides.
 
 ---
@@ -73,9 +77,11 @@ GET /assets
 GET /dreams
 GET /plans
 GET /notices
+GET /groups
 
 GET /events/{id}
 GET /assets/{id}
+GET /groups/{id}
 ...
 ```
 
@@ -84,13 +90,14 @@ All endpoints return JSON. Optional formats:
 ```
 GET /events.ics
 GET /events.rss
+GET /groups.rss
 ```
 
 Query filters: `start_after`, `start_before`, `q`, `category`, `place_id`, `near`, `radius_km`
 
 ---
 
-## 🧱 Schemas (v0.1 – Events only)
+## 🧱 Schemas (v0.1 – Events)
 
 ### Event (simplified example)
 ```json
@@ -148,7 +155,7 @@ Soon: GitHub starter repo + sync scripts
 
 ---
 
-## 🛣 Roadmap (v0.2+)
+## 🛣 Roadmap (v0.3+)
 
 We're starting with a simple service for stewards:
 
