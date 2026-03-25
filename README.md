@@ -180,3 +180,8 @@ Next phases may include:
 
 > Let’s build the infrastructure we need for our visions of community life.
 
+
+## Builder
+
+Josh Nesbit – co-founder of Relational Tech Project, building with neighbors in the Outer Sunset in SF.
+Reach me by email: josh@relationaltechproject.org
