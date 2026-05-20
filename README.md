@@ -16,7 +16,6 @@ Designed for care, interoperability, and remixability — this is quiet infrastr
 - [Stewardship Model](#stewardship-model)
 - [Publishing Your Own Feed](#publishing-your-own-feed)
 - [Roadmap](#roadmap)
-- [Sibling Specs](#sibling-specs)
 - [License](#license)
 - [Get Involved](#get-involved)
 
@@ -169,18 +168,6 @@ Next phases may include:
 - Widget library (calendar, map, digest)
 - Print/email digest generator
 - ActivityPub support for public feeds
-
----
-
-## 🤝 Sibling Specs
-
-The Neighborhood API is a general spec. Organizations can fork it and add resource types specific to their community program. Current siblings:
-
-- **[Thread API](https://github.com/The-Relational-Technology-Project/thread-api)** — the Neighborhood API for Thread's relational program in Baltimore. Adds `touchpoint`, `threadhour`, `story`, and `skill` as resource types. Stewarded by the Thread tech and data team.
-
-Sibling specs share the `source` block structure, `place_id` pattern, `/meta` endpoint, and publisher allowlist model. An app that speaks a sibling spec also speaks Neighborhood API for its shared types (event, group, dream, plan, notice).
-
-Fork this repo to start your own.
 
 ---
 
